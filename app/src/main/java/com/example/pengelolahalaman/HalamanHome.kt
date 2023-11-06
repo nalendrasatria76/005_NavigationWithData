@@ -65,7 +65,7 @@ fun HalamanHome (
                     color = Color.DarkGray,
                     fontFamily = FontFamily.Cursive,
                     fontStyle = FontStyle.Italic,
-                    fontSize = 59.sp,
+                    fontSize = 58.sp,
                     fontWeight = FontWeight.Bold
                 )
             }
