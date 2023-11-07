@@ -26,6 +26,7 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import com.example.pengelolahalaman.ui.PengelolaHalamanTheme
 
 @Composable
 fun HalamanHome (
@@ -65,7 +66,7 @@ fun HalamanHome (
                     color = Color.DarkGray,
                     fontFamily = FontFamily.Cursive,
                     fontStyle = FontStyle.Italic,
-                    fontSize = 58.sp,
+                    fontSize = 60.sp,
                     fontWeight = FontWeight.Bold
                 )
             }
@@ -91,7 +92,7 @@ fun HalamanHome (
 @Preview(showBackground = true)
 @Composable
 fun PreviewHalamanHome() {
-    EsJumboTheme {
+    PengelolaHalamanTheme {
         HalamanHome (onNextButtonClicked = {})
     }
 }
